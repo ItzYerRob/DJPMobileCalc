@@ -46,8 +46,9 @@ fun CalculatorUI() {
         //Text field for the result
         Text(
             text = result,
-            fontSize = 48.sp,
-            textAlign = TextAlign.Start,
+            fontSize = 45.sp,
+            lineHeight = 40.sp,
+            textAlign = TextAlign.End,
             modifier = Modifier
                 .fillMaxWidth()
                 .background(Color.LightGray)
